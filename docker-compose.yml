@@ -4,7 +4,7 @@ services:
     image: postgres:14.1
     environment:
       POSTGRES_PASSWORD: 1111
-      POSTGRES_USER: app
-      POSTGRES_DB: app
+      POSTGRES_USER: test_db
+      POSTGRES_DB: test_db
     ports:
       - "5432:5432"
